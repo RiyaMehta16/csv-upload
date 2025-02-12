@@ -61,8 +61,12 @@ Open http://localhost:3000 in your browser.
 Click Browse to select a CSV or Excel file.
 Click Upload to send the file to Flask.
 The response will show inserted document IDs from MongoDB.
-##🛠 API Endpoints
-##Method	Endpoint	  Description
-  POST	  /upload	    Upload CSV/Excel file
-  GET	    /test_db	  Test MongoDB connection
-
+##📜 Folder Structure
+```bash
+/your-repo-name
+│── /client       # React Frontend
+│── /server       # Flask Backend
+│── app.py        # Flask API
+│── requirements.txt  # Python Dependencies
+│── README.md     # Documentation
+```
